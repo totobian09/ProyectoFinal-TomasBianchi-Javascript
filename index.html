@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Estudiantes</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="header">
+    <h1 class="nombre-cajita">Registro de Estudiantes</h1>
+  </div>
+
+  <div id="main">
+    <form id="formulario">
+      <label for="nombreEstudiante">Nombre:</label>
+      <input type="text" id="nombreEstudiante" required>
+      <label for="notaEstudiante">Nota:</label>
+      <input type="number" id="notaEstudiante" required>
+      <button type="submit" id="agregarEstudiante" class="nombre-cajita">Agregar Estudiante</button>
+    </form>
+
+    <h2>Estudiantes Ingresados</h2>
+    <ol id="estudiantesIngresados" class="listaEstudiantes"></ol>
+
+    <h2>Resultados</h2>
+    <div id="resultados" class="nombre-cajita"></div>
+
+    <div class="div-estudiantes">
+      <button id="limpiarLista" class="nombre-cajita">Limpiar Lista</button>
+      <button id="calcularResultados" class="nombre-cajita">Calcular Resultados</button>
+      <button id="eliminarUltimoEstudiante" class="nombre-cajita">Eliminar Último Estudiante</button>
+      <button id="eliminarListaCompleta" class="nombre-cajita">Eliminar Lista Completa</button>
+      <button id="cargarListaEstudiantes" class="nombre-cajita">Cargar Lista de Estudiantes</button>
+    </div>
+
+    <div id="errorDiv" class="nombre-cajita"></div>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+</html>

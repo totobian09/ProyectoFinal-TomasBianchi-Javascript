@@ -1,0 +1,152 @@
+/*Reseteo del CSS*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive;
+}
+
+#header{
+    margin: auto;
+    width: auto;
+    text-align: center;
+    background-color: #8ba6ac;
+    font-size: x-large;
+}
+
+#main{
+    text-align: center;
+    margin: auto;
+    width: max-content;
+    background-color: #e5e6c9;
+    border-radius: 20px;
+}
+
+#formulario {
+margin: auto;
+width: auto;
+text-align: center;
+
+}
+
+.div-estudiantes{
+    width: auto;
+    margin: 4vh;
+    
+}
+
+
+/*Botones CSS*/
+
+#limpiarLista{
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+#limpiarLista:hover{
+    color: #f8f8ec;
+    background-color: #bdcdd0;
+}
+
+#calcularResultados{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#calcularResultados:hover{
+    color: #f8f8ec;
+    background-color: #bdcdd0;
+}
+
+#agregarEstudiante{
+    border-radius: 10px;
+    padding: 10px
+}
+
+#agregarEstudiante:hover{
+    color:#f8f8ec;
+    background-color: #bdcdd0;
+}
+
+#estudiantesIngresados{
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.listaEstudiantes{
+    width: auto;
+    margin: 20px;
+}
+
+#resultados{
+    width:fit-content;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color: black;
+
+}
+
+.gigante{
+    background-color: #d7d7b8;
+    height: 100vh;
+}
+
+.nombre-cajita{
+    background-color: #efe8b2;
+}
+
+.nota-cajita{
+    background-color: #efe8b2;
+
+}
+
+#eliminarUltimoEstudiante{
+    border-radius: 10px;
+    padding: 10px
+}
+
+#eliminarUltimoEstudiante:hover{
+    color:#f8f8ec;
+    background-color: #bdcdd0;
+}
+
+#eliminarListaCompleta{
+    border-radius: 10px;
+    padding: 10px
+}
+
+#cargarListaEstudiantes{
+    border-radius: 10px;
+    padding: 10px
+}
+
+#cargarListaEstudiantes:hover{
+    color:#f8f8ec;
+    background-color: #bdcdd0;
+}
+
+#errorDiv {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    animation: errorAnimation 3s;
+}
+
+@keyframes errorAnimation {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
